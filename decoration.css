@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#upr_nav{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 4.5%;
+    width: 96%;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#upr_nav a{
+    padding-right: 20px;
+    top: 50%;
+    left: 50%;
+    /* position: absolute; */
+    left: 70%;
+    gap: 20px;
+    /* color: black; */
+
+
+}
+.profile{
+   /* background-color:blue;*/
+    background-image: url(://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_158538-4909.jpg);
+    background-size: cover;
+    background-position: center;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    padding-right: 8px;
+}
+
+#lower-nav{
+    height: 5.8%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+  
+
+}
+
+#tag{
+    padding-left: 25px;
+}
+
+#lower-nav p{
+padding:60px;
+/* position: relative; */
+
+
+}
+input{
+    width:550px;
+    border-radius: 12px;
+    padding:8px;
+    height: 30px;
+}
+
+#search-icon{
+    position: absolute;
+    left: 64.3%;
+}
+
+#lower-nav i{
+    color:black;
+}
+
+#drop{
+    /* position: absolute; */
+    /* color: blue; */
+    font-size: 35px;
+    font-weight: 500;
+    top: 70%;
+
+}
+
+#image{
+    height: 76%;
+    width: 96%;
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#heading{
+    position: absolute;
+    bottom: 40%;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+    /* font-size: 85px; */
+}
+
+#heading h1{
+    text-transform: uppercase;
+    font-size: 55px;
+    letter-spacing: 3px;
+    font-weight: 510;
+}
+
+#heading h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    letter-spacing: 4px;
+    opacity: 0.75;
+}
+
+#border{
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 80px;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    color: white;
+    padding: 6px;
+    font-size: smaller;
+}
+
+/* #footer{
+    height: 10%;
+    width: 60%;
+    position: absolute;
+    bottom: 6%;
+    left: 70%;
+    background-color: black;
+} */
+
+#model1{
+    background-image: url(https://plus.unsplash.com/premium_photo-1689371953618-f4d101a0c5a6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 25%;
+    width: 8%;
+    background-size: cover;
+    position: absolute;
+    right: 20.2%;
+    bottom: 7%;
+    border-radius: 20px;
+}
+
+#model2{
+    background-image: url(https://images.unsplash.com/photo-1617114919297-3c8ddb01f599?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 25%;
+    width: 8%;
+    background-size: cover;
+    background-position: 90% 8%;
+    position: absolute;
+    right: 11%;
+    bottom: 7%;
+    border-radius: 20px;
+}
+
+#model3{
+    background-image: url(https://img.freepik.com/free-photo/full-shot-kids-posing-together_23-2149853383.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1710028800&semt=ais);
+    height: 25%;
+    width: 8%;
+    background-size: cover;
+    position: absolute;
+    left: 90%;
+    bottom: 7%;
+    border-radius: 20px;
+    
+}
+
+#footer{
+    text-transform: uppercase;
+}
+
+#footer a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: larger;
+    position: absolute;
+    top: 100%;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    left: 20px;
+    /* margin-left: 20px; */
+}
+
+#men{
+    /* position: absolute; */
+    margin-left: 20px;
+    /* padding-right: 300px; */
+}
+
+#kids{
+    margin-left:20px;
+}
+
+#model1:hover{
+    border: 2px solid black;
+}
+
+#model2:hover{
+    border: 2px solid black;
+}
+
+#model3:hover{
+    border: 2px solid black;
+}

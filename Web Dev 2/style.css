@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62%;
+}
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    line-height: 2;
+}
+nav{
+    height: 5rem;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    color: white;
+}
+.nav-link :link,.nav-link:visited{
+    color:white;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.bg-header{
+    background-color: black;
+}
+h1{
+  font-size:  5rem;
+  letter-spacing: -0.3px;
+  line-height: 1.2;
+}
+.hero-section p{
+    font-size: 2rem;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    color: gray;
+    padding: 3rem 0;
+}
+.bn{
+    background-color: rgb(255, 153, 0);
+    font-size: 1.8rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.img-d{
+    width: 80%;
+   
+}
+.featured{
+    background-color:black;
+}
